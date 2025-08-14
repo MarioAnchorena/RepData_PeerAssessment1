@@ -42,8 +42,7 @@ ggplot(daysteps,aes(steps))+
 ```
 
 ```
-## Warning: Removed 8 rows containing non-finite outside the scale range
-## (`stat_bin()`).
+## Warning: Removed 8 rows containing non-finite outside the scale range (`stat_bin()`).
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
@@ -164,8 +163,7 @@ weeksteps=act2 %>% group_by(wdwe,interval) %>% summarise(steps=mean(steps))
 ```
 
 ```
-## `summarise()` has grouped output by 'wdwe'. You can override using the
-## `.groups` argument.
+## `summarise()` has grouped output by 'wdwe'. You can override using the `.groups` argument.
 ```
 
 Finally, we plot the average number of steps taken in each 5 minute interval of a weekday or a weekend. 
